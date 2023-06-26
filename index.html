@@ -7,6 +7,32 @@
     <title>minijuego</title>
 </head>
 <body>
+
+    <main>
+        <section>
+            <h1>Podras adivinar este numero</h1>
+            <p>Reglas del juego:</p>
+            <ul>
+                <li>No pongas algo que no sea un numero.</li>
+                <li>Escribe donde se te indica</li>
+                <li>No te diviertas no importa</li>
+                <li>Un numero del 1 al 3</li>
+            </ul>
+        </section>
+
+        <section>
+            <form>
+                <label for="numeroJugador">Escribe aquí</label>
+                <input type="text" placeholder="Escribe aquí" required id="numeroJugador">
+
+                <input type="button" value="Presiona" id="botton">
+            </form>
+
+            <h2>La maquina:</h2>
+            <p id="resultadoMaquina"></p>
+        </section>
+    </main>
     
+    <script src="main.js"></script>
 </body>
 </html>
